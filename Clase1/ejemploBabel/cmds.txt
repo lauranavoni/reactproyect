@@ -1,0 +1,10 @@
+LINKS:
+https://docs.microsoft.com/es-es/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.1
+https://babeljs.io/
+
+INSTALACIÓN
+1) npm i babel-cli babel-preset-env -D
+2) crear un archivo de configuración .babelrc
+
+EJECUCIÓN
+.\node_modules\.bin\babel index.ES6.js -o index.JS5.js -w
